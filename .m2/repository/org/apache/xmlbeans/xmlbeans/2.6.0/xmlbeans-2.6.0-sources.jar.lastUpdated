@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Feb 25 12:05:34 IST 2022
+@default-central-https\://repo.maven.apache.org/maven2/.lastUpdated=1645770934381
+http\://cvs.apache.org/maven-snapshot-repository/.lastUpdated=1645770934378
+http\://cvs.apache.org/maven-snapshot-repository/.error=
+https\://repo.maven.apache.org/maven2/.error=Could not transfer artifact org.apache.xmlbeans\:xmlbeans\:jar\:sources\:2.6.0 from/to central (https\://repo.maven.apache.org/maven2)\: repo.maven.apache.org

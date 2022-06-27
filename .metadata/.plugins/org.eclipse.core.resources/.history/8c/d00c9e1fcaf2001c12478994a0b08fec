@@ -1,0 +1,17 @@
+package test;
+
+import org.testng.annotations.Test;
+
+public class day4 {
+	@Test
+	public void HomeLoan()
+	{
+		System.out.println("Best Offers Available here");
+	}
+
+	@Test
+	public void SbiHomeLoan()
+	{
+		System.out.println("SBI Home Loan");
+	}
+}

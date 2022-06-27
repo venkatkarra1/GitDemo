@@ -1,0 +1,32 @@
+import java.util.ArrayList;
+import java.util.stream.Stream;
+
+import org.testng.annotations.Test;
+
+public class test1 {
+
+	public static void main(String[] args) {
+		//count the number of names starting with alphabet A in List
+	}
+		public void regular()
+		{
+			ArrayList<String> names = new ArrayList<String>();//this is how we need to create Array list object, this list will only have stirngs
+			names.add("abhijeet");
+			names.add("Don");
+			names.add("Alekya");
+			names.add("Adam");
+			names.add("Ram");
+			int count = 0;//if we want to get the count of the names starting with Alphabet A then we need to iterate through ArrayList using forloop
+			for(int i=0;i<names.size();i++)//names.size of an arrayi.e 5 names, it will iterate 5 times, each time if we want to grab unique
+			{
+	
+				String actual = names.get(i);//lets store it in a variable called as actual
+				if(actual.startsWith("A"))//now you should compare if that string starts with Letter A then 
+				{
+					count++;
+				}
+			}
+			System.out.println(count);
+		}
+}
+	

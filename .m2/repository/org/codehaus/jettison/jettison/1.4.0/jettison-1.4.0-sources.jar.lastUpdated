@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Feb 25 12:04:42 IST 2022
+@default-central-https\://repo.maven.apache.org/maven2/.lastUpdated=1645770882148
+http\://cvs.apache.org/maven-snapshot-repository/.lastUpdated=1645770882144
+http\://cvs.apache.org/maven-snapshot-repository/.error=
+https\://repo.maven.apache.org/maven2/.error=Could not transfer artifact org.codehaus.jettison\:jettison\:jar\:sources\:1.4.0 from/to central (https\://repo.maven.apache.org/maven2)\: repo.maven.apache.org

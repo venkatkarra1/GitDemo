@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Feb 25 12:01:41 IST 2022
+htmlunit-core-js-2.28.jar>central=
+htmlunit-core-js-2.28-sources.jar>central=
+htmlunit-core-js-2.28.pom>central=

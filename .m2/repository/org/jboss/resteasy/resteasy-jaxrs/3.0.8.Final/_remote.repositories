@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Feb 25 12:05:17 IST 2022
+resteasy-jaxrs-3.0.8.Final.jar>central=
+resteasy-jaxrs-3.0.8.Final-sources.jar>central=
+resteasy-jaxrs-3.0.8.Final.pom>central=

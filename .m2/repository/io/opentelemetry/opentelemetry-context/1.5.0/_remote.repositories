@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed May 18 07:55:47 IST 2022
+opentelemetry-context-1.5.0-sources.jar>central=
+opentelemetry-context-1.5.0.jar>central=
+opentelemetry-context-1.5.0.pom>central=

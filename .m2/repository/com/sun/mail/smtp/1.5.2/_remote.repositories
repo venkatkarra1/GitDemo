@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Feb 25 12:07:34 IST 2022
+smtp-1.5.2.jar>central=
+smtp-1.5.2-javadoc.jar>central=
+smtp-1.5.2.pom>central=

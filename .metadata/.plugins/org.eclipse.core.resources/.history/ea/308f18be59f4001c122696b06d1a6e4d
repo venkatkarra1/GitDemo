@@ -1,0 +1,23 @@
+import java.net.URL;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
+
+public class SauceLabsTest {
+
+	public static void main(String[] args) {
+		DesiredCapabilities cap = DesiredCapabilities.chrome();
+		ChromeOptions browserOptions = new ChromeOptions();
+		cap.setCapability("platform", "Windows 7");
+		cap.setCapability("version", 75);
+		
+		WebDriver driver = new RemoteWebDriver(new URL(),cap);
+		driver.get("https://www.google.com");
+		System.out.println(driver.getTitle());
+		
+
+	}
+
+}

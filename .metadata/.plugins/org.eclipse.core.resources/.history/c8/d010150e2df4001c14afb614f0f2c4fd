@@ -1,0 +1,20 @@
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class windowPopUp {
+
+	public static void main(String[] args) {
+		System.setProperty("webdriver.chrome.driver", "C:\\Selenium\\SeleniumTesting\\chromedriver.exe");
+		WebDriver driver = new ChromeDriver();
+		driver.get("https://the-internet.herokuapp.com/");
+		driver.findElement(By.linkText("Basic Auth")).click();
+		//from here after you cannot handle using selenium
+		//basically we need to send the user name and password in the url itself like this
+		//by following the syntax let us try
+		//http://Username:Password@SiteURL
+		driver.get("http://admin:admin@the-internet.herokuapp.com/");
+
+	}
+
+}

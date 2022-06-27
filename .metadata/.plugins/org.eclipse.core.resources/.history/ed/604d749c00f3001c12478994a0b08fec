@@ -1,0 +1,50 @@
+package test;
+
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.Test;
+
+public class day3 {
+	@Test
+	public void webloginCarLoan()
+	{
+		//Selenium
+		System.out.println("WebLoginCarLoan");
+	}
+	@Test(groups={"smoke"})
+	public void MobileLoginCarLoan()
+	{
+		//Appium
+		System.out.println("MobileLoginCarLoan");
+	}
+	@BeforeSuite
+	public void Bfsuite()
+	{
+		System.out.println("Before Suite.......1");
+	}
+	@AfterClass
+	public void AfterClass()
+	{
+		System.out.println("I will execute After Every Class");
+	}
+	@BeforeClass
+	public void b4class()
+	{
+		System.out.println("I will Execute Beofre Every Class");
+	}
+	@BeforeMethod
+	public void BeforeMethod()
+	{
+		System.out.println("I will Execute before every method");
+	}
+	
+	@Test
+	public void APICarLoan()
+	{
+		//Rest API Automation
+		System.out.println("LoginApiCarLoan");
+	}
+
+}

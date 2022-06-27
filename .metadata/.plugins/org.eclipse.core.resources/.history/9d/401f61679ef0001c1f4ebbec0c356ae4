@@ -1,0 +1,20 @@
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class BrokenLinks {
+
+	public static void main(String[] args) {
+		System.setProperty("webdriver.chrome.driver", "C:\\Selenium\\SeleniumTesting\\chromedriver.exe");
+		WebDriver driver = new ChromeDriver();
+		//broken url
+		//java methods will call URL's and gets you the status code
+		//if the status code>400 then that URL is not working link which is tied to that URL is broken
+		//a[href*='soapui']
+		driver.get("https://rahulshettyacademy.com/AutomationPractice");
+		String url = driver.findElement(By.cssSelector("a[href*='soapui']")).getAttribute("href");
+		System.out.println(url);
+
+	}
+
+}

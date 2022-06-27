@@ -1,0 +1,14 @@
+package test;
+
+public class day2 {
+	@Test
+	public void Demo()
+	{
+		System.out.println("Congratulations");
+	}
+	@Test
+	public void Mozo()
+	{
+		System.out.println("Awesome");
+	}
+}

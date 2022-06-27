@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Feb 25 12:05:35 IST 2022
+@default-central-https\://repo.maven.apache.org/maven2/.lastUpdated=1645770935700
+http\://cvs.apache.org/maven-snapshot-repository/.lastUpdated=1645770935695
+http\://cvs.apache.org/maven-snapshot-repository/.error=
+https\://repo.maven.apache.org/maven2/.error=Could not transfer artifact stax\:stax-api\:jar\:sources\:1.0.1 from/to central (https\://repo.maven.apache.org/maven2)\: repo.maven.apache.org

@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Feb 25 12:03:20 IST 2022
+@default-central-https\://repo.maven.apache.org/maven2/.lastUpdated=1645770800613
+http\://cvs.apache.org/maven-snapshot-repository/.lastUpdated=1645770800610
+http\://cvs.apache.org/maven-snapshot-repository/.error=
+https\://repo.maven.apache.org/maven2/.error=Could not transfer artifact org.seleniumhq.selenium\:selenium-api\:jar\:sources\:3.13.0 from/to central (https\://repo.maven.apache.org/maven2)\: repo.maven.apache.org

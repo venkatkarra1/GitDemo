@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Feb 25 12:03:12 IST 2022
+@default-central-https\://repo.maven.apache.org/maven2/.lastUpdated=1645770792819
+http\://cvs.apache.org/maven-snapshot-repository/.lastUpdated=1645770792817
+http\://cvs.apache.org/maven-snapshot-repository/.error=
+https\://repo.maven.apache.org/maven2/.error=Could not transfer artifact org.seleniumhq.selenium\:selenium-firefox-driver\:jar\:sources\:3.13.0 from/to central (https\://repo.maven.apache.org/maven2)\: repo.maven.apache.org
